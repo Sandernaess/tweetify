@@ -20,6 +20,9 @@ Tweetify is a personal project built to further practice JavaScript. The fronten
 - [x] Edit Profile
 - [x] View other profiles
 - [x] Image upload
+- [ ] Follow users
+- [ ] Add Image to Tweet
+- [ ] Profile Background banner
 - [ ] Responsive Design for all pages
 - [ ] Mobile Navigation
-- [ ] Follow users
+
