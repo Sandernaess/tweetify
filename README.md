@@ -22,3 +22,4 @@ Tweetify is a personal project built to further practice JavaScript. The fronten
 - [x] Image upload
 - [ ] Responsive Design for all pages
 - [ ] Mobile Navigation
+- [ ] Follow users
