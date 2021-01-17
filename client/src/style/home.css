@@ -1,0 +1,26 @@
+.container {
+    margin-top: 80px; 
+    max-width: 1400px;
+}
+
+.profile-grid {
+    margin-bottom: 20px !important;
+}
+
+/* Change the profile grid to top when on small devices */
+@media screen and (min-width: 600px) {
+    .home-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .profile-grid {
+        margin-right: 100px !important;
+        margin-bottom: unset !important;
+    }
+
+    .home-container {
+        justify-content: flex-start;
+    }
+}

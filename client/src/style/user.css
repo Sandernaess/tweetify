@@ -1,0 +1,20 @@
+
+.not-found {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.not-found-btn {
+    margin: 20px 0px !important;
+}
+
+@media (min-width: 600px) {
+    
+    .MuiGrid-grid-sm-8 {
+        min-width: 66.666667%;
+    }
+}
+

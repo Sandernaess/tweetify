@@ -1,0 +1,53 @@
+/* styling for the profile component */ 
+
+.profile {
+    display: flex; 
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+.profile-top {
+    width: 100%;
+}
+
+.profile-details {
+    margin: 20px 0px;
+}
+
+.details-top {
+    margin-bottom: 10px;
+}
+
+.details {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.profile-img {
+    margin-top: 10px; 
+    width: 25%; 
+    border-radius: 50%;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.icon {
+    margin-left: 5px;
+}
+
+.profile-buttons {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    padding: 20px 0px; 
+}
+
+.detail {
+    display: flex; 
+    align-items: center;
+    padding-bottom: 6px;
+    padding-right: 16px;
+}

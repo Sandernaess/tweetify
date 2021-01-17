@@ -1,0 +1,18 @@
+/* Styling for login */
+
+.btn-login {
+    margin-top: 10px; 
+}
+
+@media screen and (min-width: 768px) {
+    form {
+        width: 50%;
+        max-width: 350px;  
+    }
+
+    .auth-form {
+        width: 80%; 
+        margin: 0% auto; 
+        padding: 40px 0px; 
+    }
+}

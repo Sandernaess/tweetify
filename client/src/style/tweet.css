@@ -1,0 +1,39 @@
+.card {
+    display: flex; 
+    margin-bottom: 20px;
+    position: relative; 
+}
+
+.card-image {
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    min-width: 70px; 
+    min-height: 70px; 
+}
+
+
+@media screen and (min-width: 560px) {
+    .card-image {
+        width: 80px;
+        height: 80px;
+        min-width: 80px; 
+        min-height: 80px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .card-image {
+        width: 100px; 
+        height: 100px; 
+        min-width: 100px; 
+        min-height: 100px; 
+    }
+}
+
+.tweet-buttons {
+    display: flex; 
+    align-items: center;
+}
