@@ -3,11 +3,11 @@
 Tweetify is a personal project built to further practice JavaScript. The frontend is built with React.js, Material UI and Redux. The backend is built with Node.js, Express and Firebase. I'm using Firebase for Authentication, NoSQL Database and File storage. 
 
 
-## Design Preview
-![Design preview ](docs/preview1.JPG)
+## Preview
+![Design preview ](preview2.png)
 
 ## Profile Preview
-![Design preview ](preview2.png)
+![Design preview ](docs/preview1.JPG)
 
 ## Todo
 - [x] Homepage
