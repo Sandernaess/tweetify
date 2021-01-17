@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors'; 
 import dotenv from 'dotenv'; 
 
-import TweetRoutes from './routes/tweets.js'; 
+import tweetRoutes from './routes/tweets.js'; 
 import authRoutes from './routes/auth.js';
 import userRoutes from './routes/user.js';
 
@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true}));
 app.use(cors()); 
 
 // Routes
-app.use('/tweets', TweetRoutes); 
+app.use('/tweets', tweetRoutes); 
 app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
 
