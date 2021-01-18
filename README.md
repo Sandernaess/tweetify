@@ -1,10 +1,10 @@
 # tweetify - Fullstack Webapplication
 
-Tweetify is a personal project built to further practice JavaScript. The frontend is built with React.js, Material UI and Redux. The backend is built with Node.js, Express and Firebase. I'm using Firebase for Authentication, NoSQL Database and File storage. 
+Tweetify is a personal project being built to further practice JavaScript. The frontend is currently built with React.js, Material UI and Redux. The backend is built with Node.js, Express and Firebase. I'm using Firebase for managing authentication, file storage and NoSQL Database. 
 
 
 ## Preview
-![Design preview ](preview2.png)
+![Design preview ](docs/preview2.JPG)
 
 ## Profile Preview
 ![Design preview ](docs/preview1.JPG)
@@ -20,5 +20,9 @@ Tweetify is a personal project built to further practice JavaScript. The fronten
 - [x] Edit Profile
 - [x] View other profiles
 - [x] Image upload
+- [ ] Follow users
+- [ ] Add Image to Tweet
+- [ ] Profile Background banner
 - [ ] Responsive Design for all pages
 - [ ] Mobile Navigation
+
