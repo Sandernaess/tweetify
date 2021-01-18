@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import axios from 'axios';
 import jwtDecode from 'jwt-decode';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 // Redux 
 import { Provider } from 'react-redux'; 
@@ -43,23 +44,33 @@ if (token) {
   }
 }
 
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#272343'
+    }
+  }
+});
+
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <Router>
-        <Navbar />
-          <div className="container">
-            <Switch>
-              <Route exact path="/" component={home} />
-              <AuthRoute exact path="/login" component={login}  />
-              <AuthRoute exact path="/signup" component={signup}  />
-              <Route exact path="/profile/:userID" component={profile} />
-              <Route exact path="/users/:userID" component={user} />
-              <Route path='*' exact={true} component={page404} />
-            </Switch>
-          </div>
-        </Router>
+        <MuiThemeProvider theme={theme}>
+          <Router>
+          <Navbar />
+            <div className="container">
+              <Switch>
+                <Route exact path="/" component={home} />
+                <AuthRoute exact path="/login" component={login}  />
+                <AuthRoute exact path="/signup" component={signup}  />
+                <Route exact path="/profile/:userID" component={profile} />
+                <Route exact path="/users/:userID" component={user} />
+                <Route path='*' exact={true} component={page404} />
+              </Switch>
+            </div>
+          </Router>
+        </MuiThemeProvider>
       </div>
     </Provider>
   );
