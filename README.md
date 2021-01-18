@@ -4,7 +4,7 @@ Tweetify is a personal project being built to further practice JavaScript. The f
 
 
 ## Preview
-![Design preview ]()
+![Design preview ](/docs/preview1.JPG)
 
 ## Profile Preview
 ![Design preview ]()
