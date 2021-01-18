@@ -4,10 +4,10 @@ Tweetify is a personal project being built to further practice JavaScript. The f
 
 
 ## Preview
-![Design preview ](/docs/preview1.JPG)
+![Design preview ](/docs/preview3.JPG)
 
 ## Profile Preview
-![Design preview ](/docs/preview3.JPG)
+![Design preview ](/docs/preview1.JPG)
 
 ## Todo
 - [x] Homepage
