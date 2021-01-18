@@ -115,7 +115,7 @@ class TweetDialog extends Component {
                 <article className={classes.TweetInfo}>
                     <Typography 
                     component={Link} color="primary" variant="h5" 
-                    to={`/users/${tweet.user}`}>@{tweet.user} </Typography>
+                    to={`/users/${tweet.creatorID}`}>@{tweet.handle} </Typography>
 
                     <Typography className={classes.date} variant="body2" color="textSecondary">{moment(tweet.createdAtText).fromNow()} - {moment(tweet.createdAtText).format('DD.MM.YYYY')} </Typography>
 

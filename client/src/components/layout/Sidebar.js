@@ -8,14 +8,6 @@ import Button from '@material-ui/core/Button'
 import MuiLink from '@material-ui/core/Link'; 
 import Paper from '@material-ui/core/Paper'; 
 import { CircularProgress, IconButton, Typography } from '@material-ui/core';
-import EditIcon from '@material-ui/icons/Edit';
-import Tooltip from '@material-ui/core/Tooltip'; 
-
-// Icons
-import LocationOn from '@material-ui/icons/LocationOn'; 
-import LinkIcon from '@material-ui/icons/Link'; 
-import CalendarToday from '@material-ui/icons/CalendarToday'; 
-import KeyboardReturn from '@material-ui/icons/KeyboardReturn'
 
 // Redux
 import { connect } from 'react-redux'; 

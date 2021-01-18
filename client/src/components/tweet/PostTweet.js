@@ -86,9 +86,8 @@ class PostTweet extends Component {
         return (
             <div>
                
-                <Fab onClick={this.handleOpen} variant="extended" color="primary" aria-label="add">
-                    <AddIcon /> 
-                    POST Tweet
+                <Fab onClick={this.handleOpen} variant="extended" color="primary" aria-label="add"> 
+                    Post Tweet
                 </Fab>
         
                 <Dialog open={this.state.open} onClose={this.handleClose} fullWidth maxWidth="sm">

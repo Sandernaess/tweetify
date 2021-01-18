@@ -84,7 +84,7 @@ class EditDetails extends Component {
       <Fragment>
 
         <Tooltip title="Edit profile details" placement="top">
-          <Button startIcon={<EditIcon color="inherit" />} color="primary" variant="contained" className={classes.editBtn} onClick={this.handleOpen}>Edit Profile</Button>
+          <Button startIcon={<EditIcon color="inherit" />} color="primary dark" variant="contained" className={classes.editBtn} onClick={this.handleOpen}>Edit Profile</Button>
         </Tooltip>
 
         <Dialog

@@ -35,11 +35,11 @@ export class home extends Component {
         return (
             <Grid className="home-container" container m={14}>
             
-              <Grid className="profile-grid" item md={4} sm={10} xs={12}>
+              <Grid className="profile-grid" item md={3} sm={10} xs={12}>
                 <Sidebar />
               </Grid>
 
-              <Grid className="home-grid" item md={6} sm={10} xs={12}>
+              <Grid className="home-grid" item md={5} sm={10} xs={12}>
                   {recentTweetsMarkup}
               </Grid>
                 
