@@ -19,6 +19,7 @@ const isEmail = (email) => {
 
 // Validate inputs for signup
 export const validateSignupData = (newUser) => {
+
   let errors = {};
   let valid = false;
 
@@ -26,6 +27,10 @@ export const validateSignupData = (newUser) => {
     errors.email = 'Email must not be empty';
   } else if (!isEmail(newUser.email)) {
     errors.email = 'Must be a valid email address';
+  }
+
+  if (isEmpty(newUser.name)) {
+    errors.email = 'Name must not be empty';
   }
 
   if (isEmpty(newUser.password)) {

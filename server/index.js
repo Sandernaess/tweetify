@@ -10,8 +10,6 @@ import userRoutes from './routes/user.js';
 const app = express();
 dotenv.config();
 
-// firebase
-import firebase from './db.js';
 
 // Setting up bodyParser to properly send requests
 app.use(bodyParser.json({
